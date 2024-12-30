@@ -1,0 +1,9 @@
+services:
+  php:
+    build:
+      context: ./
+    container_name: kiu_backend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/htmlm
